@@ -1,0 +1,60 @@
+.subscribe{
+    background-color: #000000;
+    color: #ffffff;
+    margin-bottom: 50px;
+    padding: 1px 0 20px 0;
+    h1{
+        width: 100%;
+        text-align: center;
+    }
+    .subscribeForm{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+        label{
+            display: block;
+            width: 100%;
+            margin-bottom: 5px;
+            font-size: 18px;
+        }
+        input{
+            width: 100%;
+            max-width: 200px;
+            box-sizing: border-box;
+            height: 30px;
+            font-size: 18px;
+            color: black;
+            font-family: 'Montserrat', sans-serif;
+        }
+        .formNumber{
+            width: 200px;
+            margin-bottom: 10px;
+        }
+        .formEmail{
+            width: 200px;
+        }
+        .formComment{
+            width: 420px;
+            textarea{
+                font-family: 'Montserrat', sans-serif;
+                width: 100%;
+                box-sizing: border-box;
+                margin-top: -1px;
+                height: 100px;
+            }
+        }
+        button{
+            width: 175px;
+            height: 35px;
+            font-size: 20px;
+            border: 1px solid black;
+            font-family: 'Caveat', cursive;
+            background: white;
+        }
+        button:hover{
+            border: 1px solid red;
+            color: red;
+        }
+    }
+}

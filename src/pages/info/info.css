@@ -1,0 +1,371 @@
+.info {
+  margin-bottom: 50px;
+}
+
+.info .infoContacts .contactLink {
+  margin-bottom: 5px;
+}
+
+.info .infoContacts .contactLink a {
+  font-size: 18px;
+  color: black;
+}
+
+.info .infoContacts .contactLink a:hover {
+  color: red;
+}
+
+.info .infoPrice ul li {
+  font-size: 20px;
+}
+
+.info .infoBatman {
+  height: 450px;
+  width: 800px;
+  overflow: hidden;
+  margin: 0 auto;
+  /* Left Wing */
+  /* left Smoother  */
+  /* left wing connector */
+  /* Right Wing */
+  /* Left wing keyframes*/
+  /* Right Wing Key Frames  */
+  /* Body Keyframes*/
+  /* Right Smoother  */
+  /* Right wing connector */
+}
+
+.info .infoBatman h1,
+.info .infoBatman h2 {
+  font-family: 'Lato', sans-serif;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.info .infoBatman span {
+  text-transform: lowercase;
+  color: orangeRed;
+}
+
+.info .infoBatman .batman {
+  top: -24px;
+  background: white;
+  width: 760px;
+  height: 500px;
+  margin: 0 auto;
+  overflow: hidden;
+  position: relative;
+  padding: 0;
+}
+
+.info .infoBatman .bat-cave {
+  position: relative;
+  top: 210px;
+}
+
+.info .infoBatman .bat-body {
+  background: black;
+  width: 52px;
+  left: 350px;
+  height: 244px;
+  margin: 0 auto;
+  margin-top: 9px;
+  position: absolute;
+  z-index: 9999;
+  animation: body-move 1.1s infinite;
+  transform-origin: center center;
+  transform-origin: left top;
+}
+
+.info .infoBatman .bat-body > div:nth-child(1) {
+  background: white;
+  width: 30px;
+  height: 35px;
+  position: absolute;
+  top: 0;
+  left: 7px;
+  transform: skewX(15deg);
+}
+
+.info .infoBatman .bat-body > div:nth-child(2) {
+  background: white;
+  width: 30px;
+  height: 35px;
+  position: absolute;
+  top: 0;
+  right: 6px;
+  transform: skewX(-15deg);
+}
+
+.info .infoBatman .bat-body > div:nth-child(3) {
+  background: black;
+  width: 50px;
+  height: 16px;
+  position: relative;
+  margin: 0 auto;
+  top: 25px;
+  border-radius: 50%;
+}
+
+.info .infoBatman .bat-body > div:nth-child(4) {
+  background: white;
+  width: 384px;
+  height: 205px;
+  position: relative;
+  top: 122px;
+  left: -357px;
+  border-radius: 100%;
+}
+
+.info .infoBatman .bat-body > div:nth-child(5) {
+  background: white;
+  width: 384px;
+  height: 205px;
+  position: relative;
+  top: -84px;
+  left: 26px;
+  border-radius: 100%;
+  transform-origin: left top;
+}
+
+.info .infoBatman .left-wing {
+  animation: wing-left 1.1s infinite;
+  transform-origin: right top;
+}
+
+.info .infoBatman .left-wing,
+.info .infoBatman .right-wing {
+  background: black;
+  width: 350px;
+  height: 182px;
+  position: absolute;
+}
+
+.info .infoBatman .left-wing > div:nth-child(1) {
+  background: white;
+  width: 92px;
+  height: 122px;
+  position: absolute;
+  top: -66px;
+  left: 260px;
+  border-radius: 50%;
+  border-bottom-right-radius: 7%;
+}
+
+.info .infoBatman .left-wing > div:nth-child(2) {
+  background: white;
+  width: 325px;
+  height: 205px;
+  position: absolute;
+  top: -23.3%;
+  left: -47.2%;
+  border-radius: 100%;
+  transform-origin: left top;
+  transform: rotate(12deg);
+}
+
+.info .infoBatman .left-wing > div:nth-child(3) {
+  background: white;
+  width: 384px;
+  height: 205px;
+  position: relative;
+  top: 138px;
+  left: -16px;
+  border-radius: 100%;
+  transform-origin: left top;
+}
+
+.info .infoBatman .left-smoother {
+  background: -moz-linear-gradient(-45deg, black 0%, black 49%, transparent 51%, transparent 100%);
+  background: -webkit-gradient(linear, left top, right bottom, color-stop(0%, black), color-stop(49%, black), color-stop(51%, transparent), color-stop(100%, transparent));
+  background: -webkit-linear-gradient(-45deg, black 0%, black 49%, transparent 51%, transparent 100%);
+  background: -o-linear-gradient(-45deg, black 0%, black 49%, transparent 51%, transparent 100%);
+  background: -ms-linear-gradient(-45deg, black 0%, black 49%, transparent 51%, transparent 100%);
+  background: linear-gradient(135deg, black 0%, black 49%, transparent 51%, transparent 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', endColorstr='#00000000',GradientType=1 );
+  width: 60px;
+  height: 60px;
+  position: absolute;
+  top: 124px;
+  left: 319px;
+  transform: rotate(-136deg);
+}
+
+.info .infoBatman .left-wing-connector {
+  background: black;
+  width: 118px;
+  height: 147px;
+  position: absolute;
+  top: 44px;
+  left: 232px;
+  padding-top: 11px;
+  overflow: hidden;
+}
+
+.info .infoBatman .left-wing-connector > div:nth-child(1) {
+  background: black;
+  width: 35px;
+  height: 20px;
+  position: relative;
+  top: -5px;
+  left: 83px;
+}
+
+.info .infoBatman .left-wing-connector > div:nth-child(2) {
+  background: white;
+  width: 50px;
+  height: 40px;
+  position: relative;
+  top: -59px;
+  left: 72px;
+  border-bottom-left-radius: 89%;
+}
+
+.info .infoBatman .left-wing-connector > div:nth-child(3) {
+  background: white;
+  width: 325px;
+  height: 205px;
+  position: relative;
+  top: 36px;
+  left: -180px;
+  border-radius: 100%;
+}
+
+.info .infoBatman .right-wing {
+  left: 402px;
+  animation: wing-right 1.1s infinite;
+  transform-origin: left top;
+}
+
+.info .infoBatman .right-wing > div:nth-child(1) {
+  background: white;
+  width: 92px;
+  height: 122px;
+  position: absolute;
+  top: -66px;
+  left: -2px;
+  border-radius: 50%;
+  border-bottom-left-radius: 7%;
+}
+
+.info .infoBatman .right-wing > div:nth-child(2) {
+  background: white;
+  width: 325px;
+  height: 205px;
+  position: absolute;
+  top: 13.7%;
+  left: 56.3%;
+  border-radius: 100%;
+  transform-origin: left top;
+  transform: rotate(-12deg);
+}
+
+.info .infoBatman .right-wing > div:nth-child(3) {
+  background: white;
+  width: 384px;
+  height: 205px;
+  position: absolute;
+  top: 139px;
+  left: -19px;
+  border-radius: 100%;
+}
+
+@keyframes wing-right {
+  0% {
+    transform: rotate(0deg);
+    transform-origin: left top;
+  }
+  50% {
+    transform: rotate(-40deg);
+    transform-origin: left top;
+  }
+  100% {
+    transform: rotate(0deg);
+    transform-origin: left top;
+  }
+}
+
+@keyframes wing-left {
+  0% {
+    transform: rotate(0deg);
+    transform-origin: right top;
+  }
+  50% {
+    transform: rotate(40deg);
+    transform-origin: right top;
+  }
+  100% {
+    transform: rotate(0deg);
+    transform-origin: right top;
+  }
+}
+
+@keyframes body-move {
+  0% {
+    top: 0;
+    transform-origin: center center;
+  }
+  50% {
+    top: -10px;
+    transform-origin: center center;
+  }
+  100% {
+    top: 0;
+    transform-origin: center center;
+  }
+}
+
+.info .infoBatman .right-smoother {
+  background: -moz-linear-gradient(45deg, transparent 0%, transparent 51%, black 54%, black 100%);
+  background: -webkit-gradient(linear, left bottom, right top, color-stop(0%, transparent), color-stop(51%, transparent), color-stop(54%, black), color-stop(100%, black));
+  background: -webkit-linear-gradient(45deg, transparent 0%, transparent 51%, black 54%, black 100%);
+  background: -o-linear-gradient(45deg, transparent 0%, transparent 51%, black 54%, black 100%);
+  background: -ms-linear-gradient(45deg, transparent 0%, transparent 51%, black 54%, black 100%);
+  background: linear-gradient(45deg, transparent 0%, transparent 51%, black 54%, black 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', endColorstr='#000000',GradientType=1 );
+  width: 60px;
+  height: 60px;
+  position: absolute;
+  top: 125px;
+  left: -28px;
+  transform: rotate(-215deg);
+}
+
+.info .infoBatman .right-wing-connector {
+  background: black;
+  width: 118px;
+  height: 147px;
+  position: absolute;
+  top: 44px;
+  left: 402px;
+  padding-top: 11px;
+}
+
+.info .infoBatman .right-wing-connector > div:nth-child(1) {
+  background: black;
+  width: 35px;
+  height: 20px;
+  position: relative;
+  top: -5px;
+  left: 0;
+}
+
+.info .infoBatman .right-wing-connector > div:nth-child(2) {
+  background: white;
+  width: 50px;
+  height: 40px;
+  position: relative;
+  top: -59px;
+  left: -3px;
+  border-bottom-right-radius: 89%;
+}
+
+.info .infoBatman .right-wing-connector > div:nth-child(3) {
+  background: white;
+  width: 384px;
+  height: 205px;
+  position: relative;
+  top: 32px;
+  left: -26px;
+  border-radius: 100%;
+}

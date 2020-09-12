@@ -1,0 +1,38 @@
+.programs{
+    h1{
+        text-align: center;
+    }
+    .programsMain{
+        display: flex;
+        flex-wrap: wrap;
+        .programsItem{
+            display: flex;
+            justify-content: space-between;
+            margin: 25px 0;
+            .itemImage{
+                width: calc(50% - 10px);
+                img{
+                    width: 100%;
+                    object-fit: contain;
+                    max-height: 400px;
+                }
+            }
+            .itemInfo{
+                width: calc(50% - 10px);
+                .infoTitle{
+                    margin-bottom: 15px;
+                }
+                .infoDesc{
+                    font-size: 18px;
+                }
+                .infoPrice{
+                    margin-top: 20px;
+                    font-size: 27px;
+                }
+            }
+        }
+        .programsItem:nth-child(2n){
+            flex-direction: row-reverse;
+        }
+    }
+}

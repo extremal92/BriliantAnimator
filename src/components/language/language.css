@@ -1,0 +1,22 @@
+.headerLanguage {
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.headerLanguage button {
+  width: 35px;
+  height: 35px;
+  cursor: pointer;
+  border: none;
+  background: none;
+  margin: 0;
+  padding: 0;
+}
+
+.headerLanguage button img {
+  width: 35px;
+  height: 35px;
+}
